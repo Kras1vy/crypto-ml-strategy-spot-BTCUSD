@@ -1,0 +1,19 @@
+[project]
+name = "stock-insight-ml"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "alpaca-py>=0.40.0",
+    "alpaca-trade-api>=0.48",
+    "matplotlib>=3.10.3",
+    "pandas>=2.2.3",
+    "python-binance>=1.0.28",
+    "python-dotenv>=1.1.0",
+    "scikit-learn>=1.6.1",
+    "seaborn>=0.13.2",
+    "six>=1.17.0",
+    "urllib3==1.26.15",
+    "xgboost>=3.0.0",
+]
