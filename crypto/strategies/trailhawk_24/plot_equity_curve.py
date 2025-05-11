@@ -16,6 +16,7 @@ def plot_equity_curve(csv_path: str) -> None:
         2, 1, figsize=(12, 6), sharex=True, gridspec_kw={"height_ratios": [2, 1]}
     )
 
+
     ax1.plot(
         equity_data["exit_time"], equity_data["equity"], label="Equity", color="green", alpha=0.4
     )
@@ -39,4 +40,3 @@ def plot_equity_curve(csv_path: str) -> None:
 
 if __name__ == "__main__":
     plot_equity_curve("crypto/processed/BTCUSDT_backtest_results.csv")
-
